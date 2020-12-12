@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e9085013eb4a334ba1c9357b949b516, type: 3}
+  m_Name: StartingState
+  m_EditorClassIdentifier: 
+  storyText: 'Ferrets. Everywhere, armed with nothing but their useless excuse for
+    what they call a brain.
+
+
+    Well son you may not know me, but I''m always there,
+    just trying to help you out with your decision here. Anyway, there isn''t much
+    of an option here but to decide how to kill them really.
+
+
+    What do you want
+    to do?
+
+    1. Take them all head on with a knife
+
+    2. Toss a grenade or some
+    other explosive.'
+  nextStates:
+  - {fileID: 11400000, guid: 0bab16a826f24244491f56154e08292d, type: 2}
+  - {fileID: 11400000, guid: 3d94cd85308c8e94aa3f9f36685adadd, type: 2}
